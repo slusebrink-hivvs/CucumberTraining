@@ -1,0 +1,20 @@
+#Default settings - local drivers - IMP environment
+default: --no-source --color
+  TEST_RAIL=no
+  SCREENSHOT=yes
+  USER_FILE=lib/data/user.yml
+  ARCHIVE_RESULTS=yes
+  ENV=IMP
+  --format pretty
+  --format html
+  --out results.html
+  --format json --out reports.json
+
+#Default settings - DEV environment
+dev: --profile default ENV=DEV
+
+#Jenkins Selenium hub
+nightly: --profile default TEST_RAIL=yes USER_FILE=D:/user.yml
+
+nightlyGrid: --profile default GRID_HUB=ec2-54-84-79-1.compute-1.amazonaws.com TEST_RAIL=yes USER_FILE=D:/user.yml
+

@@ -1,0 +1,15 @@
+source 'https://rubygems.org'
+
+gem 'bundler'
+gem 'cucumber'
+gem 'gherkin'
+gem 'rspec'
+gem "watir", "~> 6.0"
+gem 'selenium-webdriver',  '>=3.8'
+gem 'require_all'
+gem 'ffi'
+gem 'page-object'
+gem 'watir-scroll'
+gem 'multipart-post'
+gem 'jsonpath'
+gem 'roo'
