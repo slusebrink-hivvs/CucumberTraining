@@ -1,5 +1,6 @@
 Given(/^User opens a (.*) browser$/) do |browser|
-  @browser = BrowserUtil.open(browser)
+  @browser = Watir::Browser.new :chrome
+ #@browser = BrowserUtil.open(browser)
 end
 
 Given(/^User opens a (.*) browser with directory "([^"]*)"$/) do |browser,directory|

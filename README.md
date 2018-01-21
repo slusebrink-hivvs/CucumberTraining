@@ -1,6 +1,7 @@
 # CucumberTraining
 Create github.com account
-http://railsapps.github.io/installrubyonrails-mac.html
+verify ruby 2.4 or newer `ruby -v` (http://railsapps.github.io/installrubyonrails-mac.html)
+add to path /Users/lusebrin/RubymineProjects/CucumberTraining/Active_Drivers
 brew upgrade ruby
 Check out from RubyMine
 
