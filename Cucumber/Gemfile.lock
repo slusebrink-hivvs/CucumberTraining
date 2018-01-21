@@ -1,0 +1,101 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    backports (3.11.0)
+    builder (3.2.3)
+    childprocess (0.8.0)
+      ffi (~> 1.0, >= 1.0.11)
+    concurrent-ruby (1.0.5)
+    cucumber (3.1.0)
+      builder (>= 2.1.2)
+      cucumber-core (~> 3.1.0)
+      cucumber-expressions (~> 5.0.4)
+      cucumber-wire (~> 0.0.1)
+      diff-lcs (~> 1.3)
+      gherkin (~> 5.0)
+      multi_json (>= 1.7.5, < 2.0)
+      multi_test (>= 0.1.2)
+    cucumber-core (3.1.0)
+      backports (>= 3.8.0)
+      cucumber-tag_expressions (~> 1.1.0)
+      gherkin (>= 5.0.0)
+    cucumber-expressions (5.0.7)
+    cucumber-tag_expressions (1.1.1)
+    cucumber-wire (0.0.1)
+    data_magic (1.2)
+      faker (>= 1.1.2)
+      yml_reader (>= 0.6)
+    diff-lcs (1.3)
+    faker (1.8.7)
+      i18n (>= 0.7)
+    ffi (1.9.18)
+    ffi (1.9.18-x64-mingw32)
+    gherkin (5.0.0)
+    i18n (0.9.1)
+      concurrent-ruby (~> 1.0)
+    jsonpath (0.8.11)
+      multi_json
+      to_regexp (~> 0.2.1)
+    mini_portile2 (2.3.0)
+    multi_json (1.13.1)
+    multi_test (0.1.2)
+    multipart-post (2.0.0)
+    nokogiri (1.8.1)
+      mini_portile2 (~> 2.3.0)
+    nokogiri (1.8.1-x64-mingw32)
+      mini_portile2 (~> 2.3.0)
+    page-object (2.2.4)
+      page_navigation (>= 0.10)
+      selenium-webdriver (~> 3.0)
+      watir (~> 6.8)
+    page_navigation (0.10)
+      data_magic (>= 0.22)
+    require_all (1.5.0)
+    roo (2.7.1)
+      nokogiri (~> 1)
+      rubyzip (~> 1.1, < 2.0.0)
+    rspec (3.7.0)
+      rspec-core (~> 3.7.0)
+      rspec-expectations (~> 3.7.0)
+      rspec-mocks (~> 3.7.0)
+    rspec-core (3.7.1)
+      rspec-support (~> 3.7.0)
+    rspec-expectations (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-mocks (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-support (3.7.0)
+    rubyzip (1.2.1)
+    selenium-webdriver (3.8.0)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.0)
+    to_regexp (0.2.1)
+    watir (6.10.2)
+      selenium-webdriver (~> 3.4, >= 3.4.1)
+    watir-scroll (0.3.0)
+      watir (>= 6.0)
+    yml_reader (0.7)
+
+PLATFORMS
+  ruby
+  x64-mingw32
+
+DEPENDENCIES
+  bundler
+  cucumber
+  ffi
+  gherkin
+  jsonpath
+  multipart-post
+  page-object
+  require_all
+  roo
+  rspec
+  selenium-webdriver (>= 3.8)
+  watir (~> 6.0)
+  watir-scroll
+
+BUNDLED WITH
+   1.16.0
